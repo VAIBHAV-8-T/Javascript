@@ -35,4 +35,26 @@
     
 // }
 
-console.log(typeof outsideTemp);
+// console.log(typeof outsideTemp);
+
+
+// ==============//
+// memory
+// 
+// Stack(primitive),Heap(Non Primitive)
+
+// let myName = "vaibhav"
+// let anothername = myName
+
+// anothername = "harshit"
+// console.log(anothername);
+
+let userOne ={
+    email: "user@google.com",
+    upi: "user@ybl"
+}
+let userTwo = userOne
+userTwo.email = "vav@gmail.com"
+console.log(userOne.email);
+console.log(userTwo.email);
+
